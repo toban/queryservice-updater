@@ -49,6 +49,7 @@ services:
       default:
         aliases:
           - wikibase.svc
+          - some-cool-internal-hostname.svc
     environment:
       DB_SERVER: mysql.svc:3306
       MW_ADMIN_NAME:
